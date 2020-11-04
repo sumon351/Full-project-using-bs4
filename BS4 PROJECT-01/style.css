@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+ 
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3{
+ 
+font-family: 'Roboto', sans-serif;
+
+}
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+.my-color{
+    background-color: black;
+}
+.banner-container{
+    background-image: url("https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+.nav-link{
+   color: white;
+   margin: 10px;
+   border-radius: 5px;
+   font-size: 22px;
+   transition: 0.4s;
+}
+.nav-link:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+.banner-content h1{
+    background-color:teal ;
+    padding: 10px;
+    border-radius: 10px 20px;
+       font-family: 'Handlee', cursive;
+}
+
+/* features starts */
+
+#features{
+    padding: 5% 10%;
+    background-color: violet;
+}
+.features-col{
+    border: 2px solid purple;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 5px 6px black;
+}
+.icon-style{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    margin: 7px 0;
+}
+/* features ends */
+/* about me starts */
+#about-me{
+    padding: 5% 10%;
+    background-color: tan;
+}
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+
+}
+#about-me a{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: black;
+
+}
+
+/* about me ends */
+
+/* tutorial starts */
+
+#tutorials{
+    padding: 5% 10%;
+    background-color: pink;
+}
+.card{
+    box-shadow: 4px 6px 9px black;
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* tutorial ends */
+
+  /* feedback starts */
+
+  #feedback{
+      padding: 5% 10%;
+      background-color: purple;
+      color: white;
+  }
+  .carousel-item{
+      text-align: center;
+      padding: 7% 15%;
+      font-style: italic;
+  }
+  .carousel-indicators{
+      bottom: -20px;
+  }
+
+  /* feedback ends */
+
+    /* contact starts */
+
+    #contact{
+        padding: 5% 10%;
+        background-color: teal;
+    }
+    label{
+        color: white;
+        font-size: 22px;
+    }
+
+
+    /* contact ends */
+
+     /* footer starts */
+
+     footer{
+         padding: 1% 10%;
+         background-color: black;
+         color: white;
+     }
+     footer a{
+         margin: 0 10px;
+         color: white;
+     }
+
+     /* footer ends */
